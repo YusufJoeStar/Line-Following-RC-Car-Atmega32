@@ -1,4 +1,4 @@
-![rc-car-sensor-test](https://github.com/user-attachments/assets/c1bb64ef-586a-4efe-9632-428465503e20)# Line Following Car using ATmega32
+
 
 ## Project Overview
 This project is a **university group project** completed by a team of 4 members within a 1-week timeframe as part of the **Microcontrollers course**.  

@@ -58,7 +58,7 @@ The project was developed under the following enforced constraints:
 
 
 
-![Line Following Car Demo](Hardware/RC Car Sensor test.gif)
+![RC Car Sensor Test](Hardware/rc_car_sensor_test.gif)
 
 ---
 

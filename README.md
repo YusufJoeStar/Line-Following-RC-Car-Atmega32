@@ -47,14 +47,17 @@ The project was developed under the following enforced constraints:
   - Sensor states
   - Timer configuration
   - Fixed duty-cycle logic
+<div align="center">
 
-| Sensor State | Action |
-|--------------|--------|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sensor State&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Action&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+|:---:|:---:|
 | Center detected | Move forward |
-| Left detected   | Turn left |
-| Right detected  | Turn right |
-| All directions detected  | Move forward | 
-| No direction detected  | Stop |
+| Left detected | Turn left |
+| Right detected | Turn right |
+| All directions detected | Move forward |
+| No direction detected | Stop |
+
+</div>
 <img width="1110" height="650" alt="image" src="https://github.com/user-attachments/assets/f1aad680-5846-40f2-9191-26b8745537ee" />
 <img width="1467" height="270" alt="image" src="https://github.com/user-attachments/assets/ae39f27d-3c34-46e8-80c0-22ccdef0016c" />
 <img width="1597" height="434" alt="image" src="https://github.com/user-attachments/assets/0f537ae7-f2b0-4b99-9c3c-8eca2b3e9259" />

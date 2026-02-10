@@ -1,4 +1,4 @@
-
+  
 
 ## Project Overview
 This project is a **university group project** completed by a team of 4 members within a 1-week timeframe as part of the **Microcontrollers course**.  
@@ -27,7 +27,8 @@ The project was developed under the following enforced constraints:
 - Line detection is based on reflection differences between the track and background
 - Sensor readings are processed directly by the ATmega32 GPIO pins
 
-<img width="1132" height="650" alt="image" src="https://github.com/user-attachments/assets/ee30ca33-3356-43cf-9e97-94dbb28526aa" />
+<img width="1000" height="636" alt="image" src="https://github.com/user-attachments/assets/e6b14c61-be3c-4118-b4a4-215bc166bad0" />
+
 
 
 ---

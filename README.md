@@ -58,7 +58,7 @@ The project was developed under the following enforced constraints:
 
 
 
-![RC Car Sensor Test](./Hardware/rc_car_sensor_test.gif)
+![RC Car Sensor Test]([./Hardware/rc_car_sensor_test.gif](https://github.com/YusufJoeStar/Line-Following-RC-Car-Atmega32/blob/main/Line-Following-RC-Car/Hardware/rc-car-sensor-test.gif?raw=true))
 
 ---
 

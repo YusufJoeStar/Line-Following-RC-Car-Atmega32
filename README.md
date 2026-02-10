@@ -1,7 +1,7 @@
   
 
 ## Project Overview
-This project is a **university group project** completed by a team of 4 members within a 1-week timeframe as part of the **Microcontrollers course**.  
+This project is a **university group project** completed by a team of 4 members within a 1-week timeframe as part of the **Micro-controllers course**.  
 
 The objective was to design and implement a **line-following robotic car** under strict hardware and software constraints imposed by the course.
 
@@ -132,7 +132,9 @@ While the project successfully met all course requirements and functioned as int
 - Improve **wire organization and mechanical housing** to enhance durability and maintainability.
 - Use **PID-based control** for smoother motion and better error correction once covered academically.
 
-
+## References
+*  Diagrams for the H-Bridge Driver, PWM and Timer 1 are sourced from lecture slides by **Dr. Moheb Mekhaiel**.
+* **Course:** Micro-controllers (Semester 3), German International University.
 ---
 
 

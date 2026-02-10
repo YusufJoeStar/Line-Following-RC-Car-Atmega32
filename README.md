@@ -110,7 +110,7 @@ https://github.com/user-attachments/assets/03a8fe1f-47e3-4e9a-8f5d-22b56151fd11
 
 ## Limitations, Flaws, and Possible Improvements
 
-While the project successfully met all course requirements and functioned as intended within the limited timeframe, several limitations were identified in the final prototype. These limitations also highlight clear opportunities for future improvement.
+Several limitations were identified in the final prototype. These limitations also highlight clear opportunities for future improvement.
 
 ### Hardware and Safety Limitations
 - The initial design planned for the inclusion of a **Start button**, **Reset button** and **5 Sensors**; however, these were **not implemented in the final version** due to time constraints.
@@ -127,7 +127,7 @@ While the project successfully met all course requirements and functioned as int
 - **No PID control algorithm was implemented**, which limits the system’s ability to smoothly correct positional errors and handle sharp or complex path variations.
 - This decision was intentional, as **PID control had not yet been covered in the coursework** at the time of project development.
 - Implementing PID control in future iterations would significantly improve tracking accuracy, stability, and responsiveness.
-- In the line following function, If no black line was detected, the car keeps turning right to find a black surface and completes the track. This causes serious limitations and makes the car only work in specific tracks that orbit to the right only. Unfortunately, this flaw was found in the last day and due to time limit it was hard to fix.
+- In the line following function, If no black line was detected, the car keeps turning right to find a black surface and completes the track. This causes serious limitations and makes the car only work in specific tracks that orbit to the right only. Unfortunately, this flaw was found in the last day and was hard to fix.
 
 ### Future Improvements
 - Add hardware **Start/Stop and Reset buttons** for improved safety and power management.

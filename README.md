@@ -21,11 +21,13 @@ The project was developed under the following enforced constraints:
 
 ---
 
-## Sensors
-- The car uses **TCRT5000 infrared digital line sensors**
+## Sensors and Motor Driver
+- The car uses **TCRT5000 infrared digital line sensors** and **L298N H-Bridge Module Driver**
 - Sensors provide **digital HIGH/LOW output**, not analog values
 - Line detection is based on reflection differences between the track and background
 - Sensor readings are processed directly by the ATmega32 GPIO pins
+<img width="1014" height="550" alt="image" src="https://github.com/user-attachments/assets/3a6c13d9-64ec-4a9e-bbe5-f231a5ea303c" />
+
 
 <img width="1000" height="636" alt="image" src="https://github.com/user-attachments/assets/e6b14c61-be3c-4118-b4a4-215bc166bad0" />
 
@@ -36,7 +38,7 @@ The project was developed under the following enforced constraints:
 ## Motor Control Strategy
 - The car relies **entirely on timer-based logic**
 - **PWM (Pulse Width Modulation)** is generated using the ATmega32’s internal timers
-- **PWM Configuration** was set on **Fast PWM** and **Inverting Mode**.
+- **PWM Configuration** was set on **Fast PWM** and **Inverting Mode** for Timer 1.
 - Motor speed and steering adjustments are achieved through:
   - Duty cycle manipulation
   - Direction control via H-bridge outputs
@@ -47,7 +49,7 @@ The project was developed under the following enforced constraints:
   - Fixed duty-cycle logic
 
 | Sensor State | Action |
-|-------------|--------|
+|--------------|--------|
 | Center detected | Move forward |
 | Left detected   | Turn left |
 | Right detected  | Turn right |
@@ -55,6 +57,7 @@ The project was developed under the following enforced constraints:
 | No direction detected  | Stop |
 <img width="1110" height="650" alt="image" src="https://github.com/user-attachments/assets/f1aad680-5846-40f2-9191-26b8745537ee" />
 <img width="1467" height="270" alt="image" src="https://github.com/user-attachments/assets/ae39f27d-3c34-46e8-80c0-22ccdef0016c" />
+<img width="1597" height="434" alt="image" src="https://github.com/user-attachments/assets/0f537ae7-f2b0-4b99-9c3c-8eca2b3e9259" />
 
 
 

@@ -27,6 +27,7 @@ The project was developed under the following enforced constraints:
 - Line detection is based on reflection differences between the track and background
 - Sensor readings are processed directly by the ATmega32 GPIO pins
 
+<img width="1132" height="650" alt="image" src="https://github.com/user-attachments/assets/ee30ca33-3356-43cf-9e97-94dbb28526aa" />
 
 
 ---
@@ -119,9 +120,11 @@ While the project successfully met all course requirements and functioned as int
 - **No PID control algorithm was implemented**, which limits the system’s ability to smoothly correct positional errors and handle sharp or complex path variations.
 - This decision was intentional, as **PID control had not yet been covered in the coursework** at the time of project development.
 - Implementing PID control in future iterations would significantly improve tracking accuracy, stability, and responsiveness.
+- In the line following function, If no black line was detected, the car keeps turning right to find a black surface and completes the track. This causes serious limitations and makes the car only work in specific tracks that orbit to the right only. Unfortunately, this flaw was found in the last day and due to time limit it was hard to fix.
 
 ### Future Improvements
 - Add hardware **Start/Stop and Reset buttons** for improved safety and power management.
+- Fix the lost line detection logic and make the car operate in any track whether it orbits to the right or left.
 - Improve **wire organization and mechanical housing** to enhance durability and maintainability.
 - Use **PID-based control** for smoother motion and better error correction once covered academically.
 

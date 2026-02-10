@@ -59,18 +59,17 @@ Main firmware file:
 
 ## Proteus Simulation
 
-The complete Proteus schematic and simulation files are included.
+<img width="1151" height="652" alt="image" src="https://github.com/user-attachments/assets/926ea515-5b96-4a25-8167-320a47e14876" />
 
-- Proteus project: `proteus/LineFollower.pdsprj`
-- Schematic image: `docs/Proteus_Schematic.png`
 
 ---
 
 ## Photos
 
-Real-life photos of the assembled car and wiring are available in:
+<img width="859" height="610" alt="image" src="https://github.com/user-attachments/assets/0401ed6e-ff76-4c4f-9e92-c4e12fb85424" />
+<img width="415" height="344" alt="image" src="https://github.com/user-attachments/assets/5fca012e-2e3a-453e-9ab3-c5bf62371d8c" />
+<img width="604" height="509" alt="image" src="https://github.com/user-attachments/assets/40fe24b6-a8a3-4abd-9ca2-4602c2ea46dd" />
 
-`hardware/Car_Photos/`
 
 ---
 
